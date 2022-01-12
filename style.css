@@ -1,0 +1,17 @@
+body {
+    background: lightgray;
+}
+
+section {
+    background: #ffffff;
+}
+
+h1 {
+    color: red;
+}
+p {
+    color: grey; 
+}
+h2 {
+    color: #247064; 
+}
