@@ -9,24 +9,32 @@
   </head>
 
   <body>
-    <header class= "header">
-      <nav class="navigation">
-        <a  class="navigation__link navigation__link--homepage" href="nauka-html.html"> Nauka html </a>
-        <a class="navigation__link"  href="indexMK.html"> Strona główna </a>
-        <a  class="navigation__link"  href="missdietetik.html"> MissdietetiK</a>
+    <header class="header">
+      <nav class="navigation navigation--js ">
+        <a
+          class="navigation__link navigation__link--homepage"
+          href="nauka-html.html"
+        >
+          Nauka html
+        </a>
+        <a class="navigation__link" href="indexMK.html"> Strona główna </a>
+        <a class="navigation__link" href="missdietetik.html"> MissdietetiK</a>
       </nav>
+      <button class="hamburger hamburger--js" aria-label="Otwórz menu.">
+        MENU
+      </button>
     </header>
-    <main class= "main">
-      <header id="top">
+    <main class="main">
+       
         <h1>Magda Konopka-strona domowa.</h1>
-      </header>
+      
 
       <section>
         <h2 class="hotpink-header hotpink-header--js">Coś o mnie?</h2>
+
         <img class="img" src="magda.jpg" alt="Madzia" />
 
         <article class="week__summary">
-
           <p>
             Cześć! Nazywam się Magda, chociaaż wszyscy do mnie mówią Madzia. Na
             co dzień pomagam ludziom, gdyż pracuje w aptece jako technik
@@ -38,41 +46,43 @@
         </article>
       </section>
 
-      <section>
-        <h2 class="hotpink-header">Skąd zainteresowanie programowaniem?</h2>
-        <article class="week__summary">
-          <p>
-            Programowaniem zaraził mnie mój chłopak Paweł, który na co dzień
-            pracuje jako programista. To on pokazał mi na czym to polega i
-            uświadczył w przekonaniu , że programistą może stać się każdy, kto
-            chociaż trochę ma samozaparcia w sobie, a systematyczna nauka nie
-            jest mu straszna. Dlatego też zaczełam brać udział w szkoleniu:
-            <a href="https://cotenfrontend.pl/"> WTF.</a>
-          </p>
-        </article>
-      </section>
+      <div class="grid">
+        <section>
+          <h2 class="hotpink-header">Skąd zainteresowanie programowaniem?</h2>
+          <article class="week__summary">
+            <p>
+              Programowaniem zaraził mnie mój chłopak Paweł, który na co dzień
+              pracuje jako programista. To on pokazał mi na czym to polega i
+              uświadczył w przekonaniu , że programistą może stać się każdy, kto
+              chociaż trochę ma samozaparcia w sobie, a systematyczna nauka nie
+              jest mu straszna. Dlatego też zaczełam brać udział w szkoleniu:
+              <a href="https://cotenfrontend.pl/"> WTF.</a>
+            </p>
+          </article>
+        </section>
 
-      <section id="zmiany">
-        <h2 class="black">Czas na zmiany?</h2>
+        <section>
+          <h2 class="black">Czas na zmiany?</h2>
 
-        <article class="week__summary">
-          <p>
-            Nowy rok to dobry czas na postanowienia. Chociaż nigdy żadnych nie
-            miałam, w tym roku postanowiłam zmienić zawód. Nie, że nie lubię
-            swojej obecnej pracy, nic z tych rzeczy. Praca w aptece
-            siedmiodniowej, od rana do wieczora zaczyna mnie męczy. Kiedy
-            przychodzi weekend, rodzina i znajomi spędzają ze sobą czas, ja
-            jestem nieobecna , bo musze być w aptece. Kwestia finansowa, to
-            kolejny element nakłaniający do zmiany zawodu, no i oczywiście
-            pacjenci, którzy są bardzo roszczeniowi, nie liczą się z Tobą, nie
-            szanują Cię i poniżają, bo ty marny aptekarzyno jesteś zły,
-            wszystkiemu winien, bo wykonujesz swoją pracę i przestrzegasz prawo,
-            które Cię obowiązuje Ale mam w sobie wole walki i samozaparcie
-            (schudłam ok. 20 kg), dlatego będę dążyć do tego by stać się
-            programistką. Myślę, że uda mi się to 
-          </p>
-        </article>
-      </section>
+          <article class="week__summary">
+            <p>
+              Nowy rok to dobry czas na postanowienia. Chociaż nigdy żadnych nie
+              miałam, w tym roku postanowiłam zmienić zawód. Nie, że nie lubię
+              swojej obecnej pracy, nic z tych rzeczy. Praca w aptece
+              siedmiodniowej, od rana do wieczora zaczyna mnie męczy. Kiedy
+              przychodzi weekend, rodzina i znajomi spędzają ze sobą czas, ja
+              jestem nieobecna , bo musze być w aptece. Kwestia finansowa, to
+              kolejny element nakłaniający do zmiany zawodu, no i oczywiście
+              pacjenci, którzy są bardzo roszczeniowi, nie liczą się z Tobą, nie
+              szanują Cię i poniżają, bo ty marny aptekarzyno jesteś zły,
+              wszystkiemu winien, bo wykonujesz swoją pracę i przestrzegasz
+              prawo, które Cię obowiązuje Ale mam w sobie wole walki i
+              samozaparcie (schudłam ok. 20 kg), dlatego będę dążyć do tego by
+              stać się programistką. Myślę, że uda mi się to osiągnąć.
+            </p>
+          </article>
+        </section>
+      </div>
 
       <section>
         <footer>
